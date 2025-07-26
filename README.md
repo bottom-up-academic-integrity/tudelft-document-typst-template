@@ -54,3 +54,15 @@ You can replace `<commit SHA>` with the first 8 characters of the current git co
 
 ### The fields of `document-info.toml`
 
+```toml
+# the fields below will be used by types to compile the final pdf document
+
+title = "The Origin of Species"  # This will show up as the big header for the document & pdf title
+authors = ["Charles R Darwin", "Tobias Verkerk"]  # This will show up only in the metadata, so it could be left empty 
+
+[date]  # this is parsed as a datetime and shows up in doc metadata
+year = "1859"  
+month = "11"  
+day = "24"  
+```
+
