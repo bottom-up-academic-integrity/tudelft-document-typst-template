@@ -40,6 +40,16 @@
     #h(1fr)
     #set text(fill: rgb(0%,0%,0%,10%))
     sha:#sys.inputs.commit
+
+    #place(
+            bottom + right,
+            dx: 0mm, 
+            dy: -9mm,
+            [   
+                #set text(fill: rgb(6, 0, 128, 160))  // text_blue but with transparency
+                #link("https://tudelft.forintegrity.nl/")[tudelft.forintegrity.nl]
+            ]
+    )
 ])
 
 
