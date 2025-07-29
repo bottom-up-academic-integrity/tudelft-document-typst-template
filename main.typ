@@ -34,11 +34,11 @@
 
 #set page(footer:  [
     #set par(leading: 0.4em)
-    #set text(font: "Atkinson Hyperlegible", size: 8pt, fill: rgb(0%,0%,0%,20%))
+    #set text(font: "Atkinson Hyperlegible", size: 8pt, fill: rgb(0%,0%,0%,30%))
     TU Delft for Integrity is a grassroots initiative composed of academic staff, researchers \
     and students. It is not organised, run by, or formally represent the TU Delft.
     #h(1fr)
-    #set text(fill: rgb(0%,0%,0%,10%))
+    #set text(fill: rgb(0%,0%,0%,20%))
     sha:#sys.inputs.commit
 
     #place(
